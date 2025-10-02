@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Carter Capner Law | Bicycle Accident Lawyers Brisbane</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Carter Capner Law is a leading Brisbane-based compensation law firm specialising in bicycle accident claims. No-win-no-fee lawyers helping cyclists secure fair compensation."/>
+  <meta name="keywords" content="bicycle accident lawyers brisbane, bicycle lawyers brisbane, bike accident lawyers brisbane, bicycle accident compensation brisbane, bike lawyers brisbane, brisbane injury compensation lawyers"/>
+  <style>
+    :root{--bg:#f7f7f7;--text:#222;--brand:#003366;--brand-acc:#ffcc00;--card:#fff;}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+    header{background:rgba(0,0,0,0.6);color:#fff;position:absolute;width:100%;top:0;left:0;padding:14px 22px;display:flex;align-items:center;justify-content:space-between;z-index:10}
+    header .brand{display:flex;align-items:center;gap:12px;font-weight:700;letter-spacing:.5px}
+    header .brand img{height:44px}
+    nav ul{list-style:none;display:flex;gap:16px;margin:0;padding:0}
+    nav a{color:#fff;text-decoration:none;font-weight:600;cursor:pointer}
+    nav a:hover{color:var(--brand-acc);text-decoration:underline}
+
+    /* Hero */
+    .hero{position:relative;height:80vh;background:url('https://images.unsplash.com/photo-1505664194779-8beaceb93744?q=80&w=1600&auto=format&fit=crop') center/cover no-repeat;display:flex;align-items:center;justify-content:center;text-align:center;color:#fff}
+    .hero::after{content:"";position:absolute;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.55)}
+    .hero-content{position:relative;z-index:5;max-width:800px;padding:20px}
+    .hero-content h1{font-size:2.5rem;margin-bottom:15px}
+    .hero-content p{font-size:1.2rem;margin-bottom:20px}
+    .hero-content .cta{margin:8px;display:inline-block;padding:12px 20px;border-radius:8px;font-weight:700;text-decoration:none}
+    .cta.primary{background:var(--brand-acc);color:#000}
+    .cta.secondary{background:var(--brand);color:#fff}
+
+    main section{display:none;max-width:1100px;margin:36px auto;padding:24px;background:var(--card);border-radius:10px;box-shadow:0 2px 10px rgba(0,0,0,.08);opacity:0;transition:opacity .35s ease}
+    main section.active{display:block;opacity:1}
+    h1{margin:0 0 10px}
+    .lead{font-size:1.05rem}
+    .content-row{display:flex;flex-wrap:wrap;gap:22px;align-items:center;margin-top:18px}
+    .content-row img{flex:1 1 45%;max-width:100%;border-radius:8px}
+    .content-row > div,.content-row p{flex:1 1 48%;min-width:280px}
+    .badges{display:flex;flex-wrap:wrap;gap:10px;margin-top:12px}
+    .badge{background:#eef6ff;border:1px solid #cce0ff;padding:6px 10px;border-radius:999px;font-size:.85rem}
+    .cta{display:inline-block;margin-top:14px;padding:10px 16px;border-radius:8px;background:var(--brand);color:#fff;text-decoration:none;font-weight:700}
+    .cta.alt{background:var(--brand-acc);color:#000}
+    .grid-2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+    iframe.map{width:100%;height:420px;border:0;border-radius:10px;margin-top:16px}
+    footer{background:var(--brand);color:#fff;padding:28px 20px;text-align:center}
+    footer a{color:var(--brand-acc);text-decoration:none}
+    @media (max-width:768px){
+      header{flex-wrap:wrap;gap:10px}
+      .hero-content h1{font-size:1.8rem}
+      .grid-2{grid-template-columns:1fr}
+    }
+  </style>
+</head>
+<body>
+
+<!-- Header -->
+<header>
+  <div class="brand">
+    <img src="https://cartercapner.com.au/wp-content/uploads/CCL-LOGO-COMPENSATION-RECOVERY-1.png" alt="Carter Capner Law Logo">
+    <span>Carter Capner Law</span>
+  </div>
+  <nav>
+    <ul>
+      <li><a onclick="showPage('home')">Home</a></li>
+      <li><a onclick="showPage('services')">Our Services</a></li>
+	<li><a onclick="showPage('Accident Lawyers')">Accident Lawyers Brisbane</a></li>
+      <li><a onclick="showPage('why')">Why Us</a></li>
+      <li><a onclick="showPage('contact')">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- Hero -->
+<section class="hero">
+  <div class="hero-content">
+    <h1>Bicycle Accident Lawyers in Brisbane</h1>
+    <p>Experienced Compensation Lawyers – No Win, No Fee – Protecting Cyclists’ Rights Across Queensland</p>
+    <a href="tel:+611300529529" class="cta primary">📞 Call 1300 529 529</a>
+    <a onclick="showPage('contact')" class="cta secondary">Free Consultation</a>
+  </div>
+</section>
+
+<main>
+  <!-- Home -->
+  <section id="home" class="active">
+    <h1>Welcome to Carter Capner Law</h1>
+    <p class="lead">
+      <strong>Carter Capner Law</strong> is a leading Brisbane-based compensation law firm assisting cyclists injured in road accidents. 
+      We specialise in bicycle accident claims under Queensland’s CTP scheme, offering <em>no-win-no-fee representation</em>, evidence preparation, 
+      insurer negotiations, and litigation to secure fair compensation for medical expenses, income loss, and rehabilitation.
+    </p>
+    <div class="content-row">
+      <div>
+        <div class="badges">
+          <span class="badge">No-Win-No-Fee</span>
+          <span class="badge">CTP Claims Experts</span>
+          <span class="badge">Brisbane Specialists</span>
+          <span class="badge">Injury Compensation</span>
+        </div>
+        <a class="cta" href="tel:+611300529529">Call 1300 529 529</a>
+        <a class="cta alt" href="mailto:mailbox@cartercapner.com.au">Email Us</a>
+        <a class="cta alt" href="https://cartercapner.com.au/road-injuries/bicycle-accident-lawyers/" target="_blank" rel="noopener">Visit Website</a>
+      </div>
+      <img src="https://cartercapner-law.s3.eu-north-1.amazonaws.com/assets/images/2-612x459.jpg" alt="Bicycle Accident Lawyers Brisbane">
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services">
+    <h1>Our Services</h1>
+    <p>At Carter Capner Law, we specialise in helping cyclists across Brisbane who have been injured in road accidents. Our team of expert bicycle accident lawyers Brisbane provide end-to-end support under Queensland’s CTP scheme to secure the compensation you deserve.
+
+Our bicycle and bike accident legal services include:
+
+🚴 Bicycle Accident Claims – Pursuing fair bicycle accident compensation Brisbane for medical expenses, lost income, and rehabilitation costs.
+
+⚖️ No-Win, No-Fee Representation – You pay nothing unless we win your case.
+
+📑 Claim Preparation & Evidence Gathering – Comprehensive documentation for stronger negotiation.
+
+🤝 Negotiations with Insurers – Skilled handling of insurers to ensure maximum payout.
+
+🏛️ Court Representation – Experienced bike accident lawyers Brisbane ready to fight for your rights in court if required.
+
+Whether you need bicycle lawyers Brisbane or a trusted team of Brisbane injury compensation lawyers, Carter Capner Law is here to guide you at every step.<p/> 
+	
+    <div class="content-row">
+      <div>
+        <ul>
+          <li>Bicycle accident compensation claims</li>
+          <li>No-win-no-fee legal representation</li>
+          <li>Claim preparation and evidence collection</li>
+          <li>Negotiations with insurers</li>
+          <li>Litigation support if required</li>
+        </ul>
+      </div>
+      <img src="https://cartercapner-law.s3.eu-north-1.amazonaws.com/assets/images/istockphoto-1474738680-612x612-1-612x275.jpg" alt="Brisbane bicycle accident claims">
+    </div>
+  </section>
+
+<!-- Accident Lawyers Brisbane --> 
+<section id="Accident Lawyers">
+  <h1>Accident Lawyers Brisbane</h1>
+  <p>Road accidents can happen anytime and leave victims with serious injuries, financial stress, and emotional trauma. When such situations arise, having the right accident lawyers Brisbane by your side can make all the difference. At Carter Capner Law, we specialise in representing cyclists, drivers, and pedestrians injured in accidents across Queensland, helping them secure the compensation they deserve.</p>
+
+  <h2>⚖️ Why You Need an Accident Lawyer</h2>
+  <p>Navigating Queensland’s CTP (Compulsory Third Party) insurance scheme can be complicated without legal support. Accident lawyers Brisbane ensure:</p>
+  <ul>
+    <li>Your rights are protected from the beginning.</li>
+    <li>All required documents and evidence are properly prepared.</li>
+    <li>Insurance companies do not underpay or delay your claim.</li>
+    <li>You receive fair compensation for medical expenses, lost wages, and rehabilitation.</li>
+  </ul>
+
+  <h2>🚴 Carter Capner Law – Leading Bicycle Accident Lawyers Brisbane</h2>
+  <p>Unlike many general firms, Carter Capner Law has dedicated expertise as bicycle accident lawyers Brisbane. Cyclists often suffer serious injuries in collisions with cars or road hazards. Our team assists with:</p>
+  <ul>
+    <li>Bicycle accident compensation claims</li>
+    <li>Evidence gathering and witness statements</li>
+    <li>Negotiations with insurers for maximum payout</li>
+    <li>Court representation if settlement cannot be reached</li>
+  </ul>
+
+  <h2>🏆 Why Choose Carter Capner Law Over Competitors?</h2>
+  <ul>
+    <li>No-Win, No-Fee Guarantee – You don’t pay unless we win.</li>
+    <li>Local Expertise – Deep knowledge of Brisbane roads and regulations.</li>
+    <li>Specialised Services – From bike lawyers Brisbane to general Brisbane injury compensation lawyers, we cover all accident claims.</li>
+    <li>Proven Track Record – Decades of success securing fair settlements for accident victims.</li>
+    <li>Compassionate Approach – We treat every client with care, respect, and understanding.</li>
+  </ul>
+
+  <h2>📌 Related Cases We Handle</h2>
+  <ul>
+    <li>Car accident claims</li>
+    <li>Motorcycle accident claims</li>
+    <li>Pedestrian accident compensation</li>
+    <li>Public liability and workplace injuries</li>
+  </ul>
+</section>
+
+<!-- Why Us -->
+<section id="why">
+  <h1>Why Choose Carter Capner Law?</h1>
+  <ul>
+    <li>✔ Specialised Expertise – Over decades of experience in bike accident compensation Brisbane, making us leaders in this field.</li>
+    <li>✔ Personalised Support – We understand every cyclist’s situation is unique and tailor our approach to your needs.</li>
+    <li>✔ Strong Track Record – Proven history of achieving maximum compensation for injured cyclists in Brisbane.</li>
+    <li>✔ No-Win, No-Fee Guarantee – Access justice without financial risk.</li>
+    <li>✔ Compassionate Legal Guidance – Our lawyers not only fight your case but also support you through recovery and rehabilitation.</li>
+    <li>✔ Local Knowledge – Based in Brisbane, we know the roads, regulations, and legal landscape cyclists face every day.</li>
+  </ul>
+
+  <div class="grid-2">
+    <ul>
+      <li>Trusted Brisbane injury compensation lawyers</li>
+      <li>Decades of legal experience</li>
+      <li>Specialised in road injury and CTP claims</li>
+      <li>Dedicated bicycle accident team</li>
+    </ul>
+    <ul>
+      <li>No-win-no-fee representation</li>
+      <li>Personalised, client-focused service</li>
+      <li>Proven success in complex claims</li>
+      <li>Commitment to fair outcomes</li>
+    </ul>
+  </div>
+</section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h1>Contact & Company Info</h1>
+    <p class="lead">
+      <strong>Business Name:</strong> Carter Capner Law<br>
+      <strong>Owner:</strong> Peter Carter<br>
+      <strong>Phone:</strong> <a href="tel:+611300529529">1300 529 529</a><br>
+      <strong>Email:</strong> <a href="mailto:mailbox@cartercapner.com.au">mailbox@cartercapner.com.au</a><br>
+      <strong>Website:</strong> <a href="https://cartercapner.com.au/road-injuries/bicycle-accident-lawyers/" target="_blank" rel="noopener">Visit Website</a><br>
+      <strong>Hours:</strong> Mon–Fri: 8:30 AM – 5:00 PM | Sat–Sun: Closed
+    </p>
+    <p><strong>Address:</strong> Level 18, 150 Charlotte Street, Brisbane City QLD 4000, Australia</p>
+
+    <div class="badges">
+      <a class="cta alt" href="https://www.facebook.com/carcaplaw" target="_blank" rel="noopener">Facebook</a>
+      <a class="cta alt" href="https://twitter.com/cartercapnerlaw" target="_blank" rel="noopener">Twitter</a>
+      <a class="cta alt" href="https://au.linkedin.com/company/carter-capner-law" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="cta alt" href="https://www.youtube.com/watch?v=bP6bJLwJ9YE" target="_blank" rel="noopener">YouTube</a>
+    </div>
+
+      <iframe
+      class="map"    
+src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d25923.177304095603!2d153.027675!3d-27.469037!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b915a1b465d7905%3A0xf3508d46f82a98cf!2sCarter%20Capner%20Law!5e1!3m2!1sen!2sjp!4v1759330835472!5m2!1sen!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </section>
+</main>
+
+<footer>
+  <div>
+    <strong>Carter Capner Law</strong> — Brisbane City QLD •
+    <a href="tel:+611300529529">1300 529 529</a> •
+    <a href="mailto:mailbox@cartercapner.com.au">mailbox@cartercapner.com.au</a> •
+    <a href="https://cartercapner.com.au/road-injuries/bicycle-accident-lawyers/" target="_blank" rel="noopener">Website</a>
+  </div>
+</footer>
+
+<script>
+  function showPage(id){
+    document.querySelectorAll('main section').forEach(s=>s.classList.remove('active'));
+    document.getElementById(id).classList.add('active');
+    window.scrollTo({top:0,behavior:'smooth'});
+  }
+</script>
+
+</body>
+</html>
